@@ -1,0 +1,938 @@
+[2024-10-23 01:34:40] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-23 01:34:40] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-10-23 01:34:40] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-23 01:34:42] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-23 01:34:42] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-23 01:34:42] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-23 01:34:42] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280\
+[2024-10-23 01:34:42] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/diana-marquez-copa-menu/
+[2024-10-23 01:34:42] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-23 01:34:42] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-23 01:34:42] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-23 01:34:42] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-23 01:34:42] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/
+[2024-10-23 01:34:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-23 01:34:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852b278ba0-ZHD7x0.tmp
+[2024-10-23 01:34:42] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/?simply_static_page=1
+[2024-10-23 01:34:42] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/?simply_static_page=1
+[2024-10-23 01:34:46] [class-ss-url-fetcher.php:103] Filesize: 57958 bytes
+[2024-10-23 01:34:46] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-23 01:34:46] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-23 01:34:46] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852b278ba0-ZHD7x0.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/index.html
+[2024-10-23 01:34:46] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:47] [class-ss-fetch-urls-task.php:159] Adding 35 URLs to the queue
+[2024-10-23 01:34:47] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:47] [class-ss-page.php:119] Checking Content Identical:584c123ca4b90aaa4201736838e3c0a698e0a7a3===. Value: FALSE
+[2024-10-23 01:34:47] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-23 01:34:47] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-23 01:34:47] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-23 01:34:47] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-23 01:34:47] [class-ss-fetch-urls-task.php:69] Total pages: 36; Pages remaining: 35
+[2024-10-23 01:34:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu
+[2024-10-23 01:34:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 36
+[2024-10-23 01:34:47] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852b7c984d-2CKuQ0.tmp
+[2024-10-23 01:34:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu?simply_static_page=2
+[2024-10-23 01:34:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu?simply_static_page=2
+[2024-10-23 01:34:47] [class-ss-url-fetcher.php:103] Filesize: 369 bytes
+[2024-10-23 01:34:47] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-10-23 01:34:47] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-23 01:34:47] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/diana-marquez-copa-menu/
+[2024-10-23 01:34:47] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-10-23 01:34:47] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/pagina-ejemplo/
+[2024-10-23 01:34:47] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 36
+[2024-10-23 01:34:47] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:47] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852b7d8c59-GBroXF.tmp
+[2024-10-23 01:34:47] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/pagina-ejemplo/?simply_static_page=3
+[2024-10-23 01:34:47] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/pagina-ejemplo/?simply_static_page=3
+[2024-10-23 01:34:51] [class-ss-url-fetcher.php:103] Filesize: 50494 bytes
+[2024-10-23 01:34:51] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-23 01:34:51] [class-ss-url-fetcher.php:233] New filename for static page: /pagina-ejemplo/index.html
+[2024-10-23 01:34:51] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852b7d8c59-GBroXF.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/pagina-ejemplo/index.html
+[2024-10-23 01:34:51] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:51] [class-ss-fetch-urls-task.php:159] Adding 39 URLs to the queue
+[2024-10-23 01:34:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:52] [class-ss-page.php:119] Checking Content Identical:28d34ed7d84c5ca20e51f05ef8281f39659aafc3===. Value: FALSE
+[2024-10-23 01:34:52] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/2024/10/23/hola-mundo/
+[2024-10-23 01:34:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 36
+[2024-10-23 01:34:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852bc21649-gRYZ1m.tmp
+[2024-10-23 01:34:52] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/2024/10/23/hola-mundo/?simply_static_page=4
+[2024-10-23 01:34:52] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/2024/10/23/hola-mundo/?simply_static_page=4
+[2024-10-23 01:34:54] [class-ss-url-fetcher.php:103] Filesize: 66736 bytes
+[2024-10-23 01:34:54] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-23 01:34:54] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/23/hola-mundo/index.html
+[2024-10-23 01:34:54] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852bc21649-gRYZ1m.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/2024/10/23/hola-mundo/index.html
+[2024-10-23 01:34:54] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:159] Adding 42 URLs to the queue
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:55] [class-ss-page.php:119] Checking Content Identical:ecd222266721f9ef16a70871cf6da4750c1717d1===. Value: FALSE
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/jquery/jquery.min.js
+[2024-10-23 01:34:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 36
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852bf9f938-HTLUbg.tmp
+[2024-10-23 01:34:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/js/jquery/jquery.min.js?simply_static_page=5
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/jquery/jquery.min.js?simply_static_page=5
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852bf9f938-HTLUbg.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/js/jquery/jquery.min.js
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:55] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-23 01:34:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 36
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852bfc0479-tyx3Pb.tmp
+[2024-10-23 01:34:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=6
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=6
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852bfc0479-tyx3Pb.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:55] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-10-23 01:34:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 36
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852bfd7844-BB1qa8.tmp
+[2024-10-23 01:34:55] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=7
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js?simply_static_page=7
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:103] Filesize: 146374 bytes
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-10-23 01:34:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852bfd7844-BB1qa8.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/js/lib/swiper-bundle.js
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:56] [class-ss-page.php:119] Checking Content Identical:7996d63abbbbe06e4ccbfdcfcc1979b4ef224eb6===. Value: FALSE
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-10-23 01:34:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 36
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c009906-rG8BZC.tmp
+[2024-10-23 01:34:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=8
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js?simply_static_page=8
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:103] Filesize: 17388 bytes
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c009906-rG8BZC.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic/ScrollMagic.min.js
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:56] [class-ss-page.php:119] Checking Content Identical:41cd89ef41484b59d50b766f5c8755c9a9084018===. Value: FALSE
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/blocks/navigation/view.min.js
+[2024-10-23 01:34:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 36
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c025bc4-VM2XfL.tmp
+[2024-10-23 01:34:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/blocks/navigation/view.min.js?simply_static_page=9
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/blocks/navigation/view.min.js?simply_static_page=9
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/view.min.js
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c025bc4-VM2XfL.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/blocks/navigation/view.min.js
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:56] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-10-23 01:34:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 36
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c043315-UAa2mb.tmp
+[2024-10-23 01:34:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=10
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?simply_static_page=10
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:103] Filesize: 8171 bytes
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c043315-UAa2mb.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:56] [class-ss-page.php:119] Checking Content Identical:60c8514c57a5db2980c4b046b0dd479bd427357b===. Value: FALSE
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-10-23 01:34:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 36
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c06144f-9J9bko.tmp
+[2024-10-23 01:34:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=11
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/vendor/regenerator-runtime.min.js?simply_static_page=11
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:103] Filesize: 6625 bytes
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c06144f-9J9bko.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/js/dist/vendor/regenerator-runtime.min.js
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:56] [class-ss-page.php:119] Checking Content Identical:0d792b33f12a48ee8aaaf2560a63a5682470645b===. Value: FALSE
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-10-23 01:34:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 36
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c07aeeb-Cf0oon.tmp
+[2024-10-23 01:34:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=12
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/vendor/wp-polyfill.min.js?simply_static_page=12
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:103] Filesize: 38590 bytes
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c07aeeb-Cf0oon.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/js/dist/vendor/wp-polyfill.min.js
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:56] [class-ss-page.php:119] Checking Content Identical:eab40ab4e77f92f2fb17684aaf44b579a51b8034===. Value: FALSE
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/dom-ready.min.js
+[2024-10-23 01:34:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 36
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c0981eb-ANfUbL.tmp
+[2024-10-23 01:34:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/dom-ready.min.js?simply_static_page=13
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/dom-ready.min.js?simply_static_page=13
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:103] Filesize: 457 bytes
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/dom-ready.min.js
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c0981eb-ANfUbL.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/js/dist/dom-ready.min.js
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:56] [class-ss-page.php:119] Checking Content Identical:3c03312717fb495c051d02a3d27ec0d8abc2557d===. Value: FALSE
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/hooks.min.js
+[2024-10-23 01:34:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 36
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c0afba0-r0SjQ9.tmp
+[2024-10-23 01:34:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/hooks.min.js?simply_static_page=14
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/hooks.min.js?simply_static_page=14
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:103] Filesize: 4307 bytes
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/hooks.min.js
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c0afba0-r0SjQ9.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/js/dist/hooks.min.js
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:56] [class-ss-page.php:119] Checking Content Identical:ee6aa3d65b474309376468b24bb6f829a4514809===. Value: FALSE
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/i18n.min.js
+[2024-10-23 01:34:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 36
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c0c8cd3-IOSmMt.tmp
+[2024-10-23 01:34:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/i18n.min.js?simply_static_page=15
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/i18n.min.js?simply_static_page=15
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:103] Filesize: 9141 bytes
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/i18n.min.js
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c0c8cd3-IOSmMt.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/js/dist/i18n.min.js
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:56] [class-ss-page.php:119] Checking Content Identical:9997a1745f48bdd233dbe9bd8164daa53eba105b===. Value: FALSE
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2024-10-23 01:34:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 36
+[2024-10-23 01:34:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c0e3d5f-lGUcH8.tmp
+[2024-10-23 01:34:56] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js?simply_static_page=16
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js?simply_static_page=16
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:103] Filesize: 3175 bytes
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2024-10-23 01:34:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c0e3d5f-lGUcH8.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.js
+[2024-10-23 01:34:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:57] [class-ss-page.php:119] Checking Content Identical:3d01c6b78e40a9a7c54d2b224e3a47a2029f5e89===. Value: FALSE
+[2024-10-23 01:34:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2024-10-23 01:34:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 36
+[2024-10-23 01:34:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c10c1bb-lIhDQJ.tmp
+[2024-10-23 01:34:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js?simply_static_page=17
+[2024-10-23 01:34:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js?simply_static_page=17
+[2024-10-23 01:34:57] [class-ss-url-fetcher.php:103] Filesize: 2168 bytes
+[2024-10-23 01:34:57] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:34:57] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2024-10-23 01:34:57] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c10c1bb-lIhDQJ.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider/index.js
+[2024-10-23 01:34:57] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:57] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:34:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:57] [class-ss-page.php:119] Checking Content Identical:e3b1e4809103a536677d7f469e22585c072a3743===. Value: FALSE
+[2024-10-23 01:34:57] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/feed/
+[2024-10-23 01:34:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 36
+[2024-10-23 01:34:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c126dba-H5GJSf.tmp
+[2024-10-23 01:34:57] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/feed/?simply_static_page=18
+[2024-10-23 01:34:57] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/feed/?simply_static_page=18
+[2024-10-23 01:34:59] [class-ss-url-fetcher.php:103] Filesize: 1857 bytes
+[2024-10-23 01:34:59] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-23 01:34:59] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-10-23 01:34:59] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c126dba-H5GJSf.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/feed/index.xml
+[2024-10-23 01:34:59] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:34:59] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-23 01:34:59] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:34:59] [class-ss-page.php:119] Checking Content Identical:85fd751b5cd5c55cad5b02761f7d8db4d3872800===. Value: FALSE
+[2024-10-23 01:34:59] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/comments/feed/
+[2024-10-23 01:34:59] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 36
+[2024-10-23 01:34:59] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:34:59] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c3c3790-yNXB2F.tmp
+[2024-10-23 01:34:59] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/comments/feed/?simply_static_page=19
+[2024-10-23 01:34:59] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/comments/feed/?simply_static_page=19
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:103] Filesize: 1819 bytes
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c3c3790-yNXB2F.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/comments/feed/index.xml
+[2024-10-23 01:35:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:02] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-10-23 01:35:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:02] [class-ss-page.php:119] Checking Content Identical:1da9aa23288aee1d0b501314f77747fc35509f0d===. Value: FALSE
+[2024-10-23 01:35:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/blocks/navigation/style.min.css
+[2024-10-23 01:35:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 36
+[2024-10-23 01:35:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c6ac370-jiQWiG.tmp
+[2024-10-23 01:35:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/blocks/navigation/style.min.css?simply_static_page=20
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/blocks/navigation/style.min.css?simply_static_page=20
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:103] Filesize: 16484 bytes
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c6ac370-jiQWiG.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/blocks/navigation/style.min.css
+[2024-10-23 01:35:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:02] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:02] [class-ss-page.php:119] Checking Content Identical:a75edf5442c196d670e436c2f616ecd595e41d68===. Value: FALSE
+[2024-10-23 01:35:02] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-10-23 01:35:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 36
+[2024-10-23 01:35:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c6d24ab-ykaIe9.tmp
+[2024-10-23 01:35:02] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=21
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css?simply_static_page=21
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:103] Filesize: 53538 bytes
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-10-23 01:35:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c6d24ab-ykaIe9.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/css/all.css
+[2024-10-23 01:35:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:159] Adding 15 URLs to the queue
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:03] [class-ss-page.php:119] Checking Content Identical:0d27ca290ec9acb74483096c3353a86e244253bb===. Value: FALSE
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2024-10-23 01:35:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 36
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c74d81a-AGfEaz.tmp
+[2024-10-23 01:35:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css?simply_static_page=22
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css?simply_static_page=22
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:103] Filesize: 20338 bytes
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c74d81a-AGfEaz.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/dist/non-blocks/frontend/index.css
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:03] [class-ss-page.php:119] Checking Content Identical:be3ec737e679ebabdf80221f9107ffb6a5e586fb===. Value: FALSE
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-json/
+[2024-10-23 01:35:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 36
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/diana-marquez-copa-menu/wp-json/
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/xmlrpc.php
+[2024-10-23 01:35:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 36
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/diana-marquez-copa-menu/xmlrpc.php
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/interactivity.min.js
+[2024-10-23 01:35:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 36
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c77b55f-nl7rH7.tmp
+[2024-10-23 01:35:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/interactivity.min.js?simply_static_page=25
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/dist/interactivity.min.js?simply_static_page=25
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:103] Filesize: 35085 bytes
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/interactivity.min.js
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c77b55f-nl7rH7.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/js/dist/interactivity.min.js
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:03] [class-ss-page.php:119] Checking Content Identical:94d22d48979f46560d1c7ff46978bfd4b67aebec===. Value: FALSE
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular.woff2
+[2024-10-23 01:35:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 36
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c798690-6qtnYu.tmp
+[2024-10-23 01:35:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular.woff2?simply_static_page=26
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular.woff2?simply_static_page=26
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:103] Filesize: 29272 bytes
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular.woff2
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c798690-6qtnYu.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular.woff2
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:03] [class-ss-page.php:119] Checking Content Identical:ccb66559d2695374a2e5e238270f0ec8b992cdd5===. Value: FALSE
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2
+[2024-10-23 01:35:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 36
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c7b255b-DymJ4x.tmp
+[2024-10-23 01:35:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2?simply_static_page=27
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2?simply_static_page=27
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:103] Filesize: 32492 bytes
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c7b255b-DymJ4x.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:03] [class-ss-page.php:119] Checking Content Identical:30418bf54e1d00fea0634057bd33274365a59129===. Value: FALSE
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold.woff2
+[2024-10-23 01:35:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 36
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c7cab86-5wROZx.tmp
+[2024-10-23 01:35:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold.woff2?simply_static_page=28
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold.woff2?simply_static_page=28
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:103] Filesize: 29272 bytes
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold.woff2
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c7cab86-5wROZx.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold.woff2
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:03] [class-ss-page.php:119] Checking Content Identical:f36331334a63f2b1e13e8417da8fe823ffcbecf7===. Value: FALSE
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2
+[2024-10-23 01:35:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 36
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c7e198b-PWByME.tmp
+[2024-10-23 01:35:03] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2?simply_static_page=29
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2?simply_static_page=29
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:103] Filesize: 32784 bytes
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2
+[2024-10-23 01:35:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c7e198b-PWByME.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:04] [class-ss-page.php:119] Checking Content Identical:f4f491d55e8e0871e3dcf60107b200913a2046b8===. Value: FALSE
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2
+[2024-10-23 01:35:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 36
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c804f65-HGvdHd.tmp
+[2024-10-23 01:35:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2?simply_static_page=30
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2?simply_static_page=30
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:103] Filesize: 34700 bytes
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c804f65-HGvdHd.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:04] [class-ss-page.php:119] Checking Content Identical:73a19cd8e5c5cc7aadb97299033779d2e87b4128===. Value: FALSE
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2
+[2024-10-23 01:35:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 36
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c81daa0-tcTOsj.tmp
+[2024-10-23 01:35:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2?simply_static_page=31
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2?simply_static_page=31
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:103] Filesize: 34480 bytes
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c81daa0-tcTOsj.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:04] [class-ss-page.php:119] Checking Content Identical:d2db0a75a5ec3b991e07def36d610d8a59c231cf===. Value: FALSE
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2
+[2024-10-23 01:35:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 36
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c832f6f-WaOlKo.tmp
+[2024-10-23 01:35:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2?simply_static_page=32
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2?simply_static_page=32
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:103] Filesize: 38924 bytes
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c832f6f-WaOlKo.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:04] [class-ss-page.php:119] Checking Content Identical:5d8d669a27b7b1ffc28ddcbf40746871e7755fb1===. Value: FALSE
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2
+[2024-10-23 01:35:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 36
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c84b734-s5Vk6o.tmp
+[2024-10-23 01:35:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2?simply_static_page=33
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2?simply_static_page=33
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:103] Filesize: 35652 bytes
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c84b734-s5Vk6o.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:04] [class-ss-page.php:119] Checking Content Identical:fb3e74748b42eaedbe9f4cd2bec9b0410361f583===. Value: FALSE
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf
+[2024-10-23 01:35:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 36
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c8643ac-WAZeRk.tmp
+[2024-10-23 01:35:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf?simply_static_page=34
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf?simply_static_page=34
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:103] Filesize: 803384 bytes
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c8643ac-WAZeRk.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/themes/twentytwentythree/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:04] [class-ss-page.php:119] Checking Content Identical:44b415f3b0ac1da7f3044ba6bcc542a649d4a447===. Value: FALSE
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
+[2024-10-23 01:35:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 36
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c89a7e7-3joo7J.tmp
+[2024-10-23 01:35:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2?simply_static_page=35
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2?simply_static_page=35
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:103] Filesize: 428448 bytes
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c89a7e7-3joo7J.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:04] [class-ss-page.php:119] Checking Content Identical:b622e44324ea8789789e812cae242e1f483e9811===. Value: FALSE
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
+[2024-10-23 01:35:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 36
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852c8c22bc-76a2eq.tmp
+[2024-10-23 01:35:04] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2?simply_static_page=36
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2?simply_static_page=36
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:103] Filesize: 346840 bytes
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
+[2024-10-23 01:35:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852c8c22bc-76a2eq.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:04] [class-ss-page.php:119] Checking Content Identical:95c3d13946b16dfb07cfa14629a8ae04cc83323d===. Value: FALSE
+[2024-10-23 01:35:04] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 36 pages/files
+[2024-10-23 01:35:04] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-23 01:35:07] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-23 01:35:07] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-23 01:35:07] [class-ss-fetch-urls-task.php:69] Total pages: 60; Pages remaining: 24
+[2024-10-23 01:35:07] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-admin/
+[2024-10-23 01:35:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 60
+[2024-10-23 01:35:07] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852cbe1ecc-ifUnk5.tmp
+[2024-10-23 01:35:07] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-admin/?simply_static_page=37
+[2024-10-23 01:35:07] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-admin/?simply_static_page=37
+[2024-10-23 01:35:11] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-10-23 01:35:11] [class-ss-url-fetcher.php:119] http_status_code: 302 | content_type: text/html; charset=UTF-8
+[2024-10-23 01:35:11] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-23 01:35:11] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/diana-marquez-copa-menu/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fdiana-marquez-copa-menu%2Fwp-admin%2F%3Fsimply_static_page%3D37&reauth=1
+[2024-10-23 01:35:11] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2024-10-23 01:35:11] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2024-10-23 01:35:11] [class-ss-url-fetcher.php:233] New filename for static page: /wp-admin/index.html
+[2024-10-23 01:35:11] [class-ss-page.php:119] Checking Content Identical:59a958da379464de0b011674f93cdc6a081228cb===. Value: FALSE
+[2024-10-23 01:35:11] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/pagina-ejemplo/feed/
+[2024-10-23 01:35:11] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 60
+[2024-10-23 01:35:11] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:11] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852cf65b4f-IeJhcf.tmp
+[2024-10-23 01:35:11] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/pagina-ejemplo/feed/?simply_static_page=38
+[2024-10-23 01:35:11] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/pagina-ejemplo/feed/?simply_static_page=38
+[2024-10-23 01:35:14] [class-ss-url-fetcher.php:103] Filesize: 786 bytes
+[2024-10-23 01:35:14] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-23 01:35:14] [class-ss-url-fetcher.php:233] New filename for static page: /pagina-ejemplo/feed/index.xml
+[2024-10-23 01:35:14] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852cf65b4f-IeJhcf.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/pagina-ejemplo/feed/index.xml
+[2024-10-23 01:35:14] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:14] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-10-23 01:35:14] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:14] [class-ss-page.php:119] Checking Content Identical:613bde54495f8a4525a196e1cd3600f970acb8f7===. Value: FALSE
+[2024-10-23 01:35:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-json/wp/v2/pages/2
+[2024-10-23 01:35:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 60
+[2024-10-23 01:35:14] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/diana-marquez-copa-menu/wp-json/wp/v2/pages/2
+[2024-10-23 01:35:14] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-23 01:35:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-json/oembed/1.0/embed
+[2024-10-23 01:35:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 60
+[2024-10-23 01:35:14] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/diana-marquez-copa-menu/wp-json/oembed/1.0/embed
+[2024-10-23 01:35:14] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-23 01:35:14] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/category/sin-categoria/
+[2024-10-23 01:35:14] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 60
+[2024-10-23 01:35:14] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:14] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852d2813ed-LjamSV.tmp
+[2024-10-23 01:35:14] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/category/sin-categoria/?simply_static_page=41
+[2024-10-23 01:35:14] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/category/sin-categoria/?simply_static_page=41
+[2024-10-23 01:35:17] [class-ss-url-fetcher.php:103] Filesize: 49795 bytes
+[2024-10-23 01:35:17] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-23 01:35:17] [class-ss-url-fetcher.php:233] New filename for static page: /category/sin-categoria/index.html
+[2024-10-23 01:35:17] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852d2813ed-LjamSV.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/category/sin-categoria/index.html
+[2024-10-23 01:35:17] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:18] [class-ss-fetch-urls-task.php:159] Adding 37 URLs to the queue
+[2024-10-23 01:35:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:18] [class-ss-page.php:119] Checking Content Identical:16431ed90538ede95138a7c234b4f530333ce16a===. Value: FALSE
+[2024-10-23 01:35:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/comment-reply.min.js
+[2024-10-23 01:35:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 60
+[2024-10-23 01:35:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852d6a73f0-D7Y7JT.tmp
+[2024-10-23 01:35:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/js/comment-reply.min.js?simply_static_page=42
+[2024-10-23 01:35:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/js/comment-reply.min.js?simply_static_page=42
+[2024-10-23 01:35:18] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-10-23 01:35:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-23 01:35:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-10-23 01:35:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852d6a73f0-D7Y7JT.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/js/comment-reply.min.js
+[2024-10-23 01:35:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:18] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-10-23 01:35:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/2024/10/23/hola-mundo/feed/
+[2024-10-23 01:35:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 60
+[2024-10-23 01:35:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852d6e1a05-4HTbEr.tmp
+[2024-10-23 01:35:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/2024/10/23/hola-mundo/feed/?simply_static_page=43
+[2024-10-23 01:35:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/2024/10/23/hola-mundo/feed/?simply_static_page=43
+[2024-10-23 01:35:21] [class-ss-url-fetcher.php:103] Filesize: 1812 bytes
+[2024-10-23 01:35:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-23 01:35:21] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/23/hola-mundo/feed/index.xml
+[2024-10-23 01:35:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852d6e1a05-4HTbEr.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/2024/10/23/hola-mundo/feed/index.xml
+[2024-10-23 01:35:21] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:21] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-23 01:35:21] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:21] [class-ss-page.php:119] Checking Content Identical:57aa96a14904eede5414ddb6d09c75851eb38f77===. Value: FALSE
+[2024-10-23 01:35:21] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-includes/css/dist/block-library/common.min.css
+[2024-10-23 01:35:21] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 60
+[2024-10-23 01:35:21] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:21] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852d9b7462-v7G7FO.tmp
+[2024-10-23 01:35:21] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-includes/css/dist/block-library/common.min.css?simply_static_page=44
+[2024-10-23 01:35:21] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-includes/css/dist/block-library/common.min.css?simply_static_page=44
+[2024-10-23 01:35:21] [class-ss-url-fetcher.php:103] Filesize: 3503 bytes
+[2024-10-23 01:35:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-23 01:35:21] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/common.min.css
+[2024-10-23 01:35:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852d9b7462-v7G7FO.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-includes/css/dist/block-library/common.min.css
+[2024-10-23 01:35:21] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:21] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:21] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:21] [class-ss-page.php:119] Checking Content Identical:e22637b50dd6ae1c1f7a418ae2d0c803a362b7fa===. Value: FALSE
+[2024-10-23 01:35:21] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-json/wp/v2/posts/1
+[2024-10-23 01:35:21] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 60
+[2024-10-23 01:35:21] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/diana-marquez-copa-menu/wp-json/wp/v2/posts/1
+[2024-10-23 01:35:21] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot
+[2024-10-23 01:35:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 60
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852da12581-d8bbaQ.tmp
+[2024-10-23 01:35:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot?simply_static_page=46
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot?simply_static_page=46
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:103] Filesize: 134396 bytes
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852da12581-d8bbaQ.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.eot
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:22] [class-ss-page.php:119] Checking Content Identical:5958a06de280ca88fd431cb53f99816b29f91aea===. Value: FALSE
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2
+[2024-10-23 01:35:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 60
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852da491b7-Xkn92x.tmp
+[2024-10-23 01:35:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2?simply_static_page=47
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2?simply_static_page=47
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:103] Filesize: 74288 bytes
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852da491b7-Xkn92x.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff2
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:22] [class-ss-page.php:119] Checking Content Identical:0039be9d8a99d1e5cf200ca3e08757692020460e===. Value: FALSE
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff
+[2024-10-23 01:35:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 60
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852da78fcc-UDVEGz.tmp
+[2024-10-23 01:35:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff?simply_static_page=48
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff?simply_static_page=48
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:103] Filesize: 87048 bytes
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff
+[2024-10-23 01:35:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852da78fcc-UDVEGz.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.woff
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:22] [class-ss-page.php:119] Checking Content Identical:e00a59950b59ba51e1bd1bce08d2f63d03a2268a===. Value: FALSE
+[2024-10-23 01:35:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf
+[2024-10-23 01:35:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 60
+[2024-10-23 01:35:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852db555b8-jlolhf.tmp
+[2024-10-23 01:35:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf?simply_static_page=49
+[2024-10-23 01:35:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf?simply_static_page=49
+[2024-10-23 01:35:23] [class-ss-url-fetcher.php:103] Filesize: 134160 bytes
+[2024-10-23 01:35:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-23 01:35:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf
+[2024-10-23 01:35:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852db555b8-jlolhf.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.ttf
+[2024-10-23 01:35:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:23] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:23] [class-ss-page.php:119] Checking Content Identical:7cba2133893eb41e742d630f1218a8ac151675c8===. Value: FALSE
+[2024-10-23 01:35:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg
+[2024-10-23 01:35:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 60
+[2024-10-23 01:35:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852dbb6af2-1Eyfi8.tmp
+[2024-10-23 01:35:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg?simply_static_page=50
+[2024-10-23 01:35:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg?simply_static_page=50
+[2024-10-23 01:35:23] [class-ss-url-fetcher.php:103] Filesize: 749737 bytes
+[2024-10-23 01:35:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-23 01:35:23] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg
+[2024-10-23 01:35:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852dbb6af2-1Eyfi8.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-brands-400.svg
+[2024-10-23 01:35:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:24] [class-ss-page.php:119] Checking Content Identical:c4bd384d047cef886827bbf70fd6112a6de3c7b0===. Value: FALSE
+[2024-10-23 01:35:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot
+[2024-10-23 01:35:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 60
+[2024-10-23 01:35:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852dc7fa22-hU4v1K.tmp
+[2024-10-23 01:35:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot?simply_static_page=51
+[2024-10-23 01:35:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot?simply_static_page=51
+[2024-10-23 01:35:24] [class-ss-url-fetcher.php:103] Filesize: 40308 bytes
+[2024-10-23 01:35:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-23 01:35:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot
+[2024-10-23 01:35:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852dc7fa22-hU4v1K.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.eot
+[2024-10-23 01:35:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:24] [class-ss-page.php:119] Checking Content Identical:b55b6e468adfb5d52879ba9389cad2a2b97892c9===. Value: FALSE
+[2024-10-23 01:35:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2
+[2024-10-23 01:35:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 60
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852dd0d6b3-AOBovL.tmp
+[2024-10-23 01:35:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2?simply_static_page=52
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2?simply_static_page=52
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:103] Filesize: 14872 bytes
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852dd0d6b3-AOBovL.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff2
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:25] [class-ss-page.php:119] Checking Content Identical:a4c23e5bae96a5da2dba5599d56114faeb4a3495===. Value: FALSE
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff
+[2024-10-23 01:35:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 60
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852dd5beae-lmVjDc.tmp
+[2024-10-23 01:35:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff?simply_static_page=53
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff?simply_static_page=53
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:103] Filesize: 18164 bytes
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852dd5beae-lmVjDc.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.woff
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:25] [class-ss-page.php:119] Checking Content Identical:26b552cb139041d3044c937e7879c9be2a8528bf===. Value: FALSE
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf
+[2024-10-23 01:35:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 60
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852dd74749-Z26Ip0.tmp
+[2024-10-23 01:35:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf?simply_static_page=54
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf?simply_static_page=54
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:103] Filesize: 40080 bytes
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852dd74749-Z26Ip0.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.ttf
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:25] [class-ss-page.php:119] Checking Content Identical:3d58fd9d329aad13e48c4cbb0620cd47d583c047===. Value: FALSE
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg
+[2024-10-23 01:35:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 60
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852dd90114-NOqAH6.tmp
+[2024-10-23 01:35:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg?simply_static_page=55
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg?simply_static_page=55
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:103] Filesize: 139825 bytes
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852dd90114-NOqAH6.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-regular-400.svg
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:25] [class-ss-page.php:119] Checking Content Identical:fe20f0cbb72636ba416ba94eddb9d106a541185d===. Value: FALSE
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot
+[2024-10-23 01:35:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 60
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852ddae999-GDM0rw.tmp
+[2024-10-23 01:35:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot?simply_static_page=56
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot?simply_static_page=56
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:103] Filesize: 209012 bytes
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852ddae999-GDM0rw.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.eot
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:25] [class-ss-page.php:119] Checking Content Identical:600b88c2053af11c6c7ea0491ff2554fda79ecbb===. Value: FALSE
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2
+[2024-10-23 01:35:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 60
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852ddcc834-D3Dk4I.tmp
+[2024-10-23 01:35:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2?simply_static_page=57
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2?simply_static_page=57
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:103] Filesize: 79100 bytes
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff2
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852ddcc834-D3Dk4I.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff2
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:25] [class-ss-page.php:119] Checking Content Identical:28a1f2fadc35c5343e0280389fe7955e3d1be607===. Value: FALSE
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff
+[2024-10-23 01:35:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 60
+[2024-10-23 01:35:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852dde57d1-G81gs4.tmp
+[2024-10-23 01:35:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff?simply_static_page=58
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff?simply_static_page=58
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:103] Filesize: 102224 bytes
+[2024-10-23 01:35:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852dde57d1-G81gs4.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.woff
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:26] [class-ss-page.php:119] Checking Content Identical:28b3d94d115d3e80c3ffd86239fd84638c88d463===. Value: FALSE
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf
+[2024-10-23 01:35:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 60
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852de0cff7-sKdkmN.tmp
+[2024-10-23 01:35:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf?simply_static_page=59
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf?simply_static_page=59
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:103] Filesize: 208792 bytes
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852de0cff7-sKdkmN.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.ttf
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:26] [class-ss-page.php:119] Checking Content Identical:4f8bfab573ad1de9084b1f7675953e2008e3f459===. Value: FALSE
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg
+[2024-10-23 01:35:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 60
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852de2e6e1-1K1XhP.tmp
+[2024-10-23 01:35:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg?simply_static_page=60
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg?simply_static_page=60
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:103] Filesize: 794054 bytes
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852de2e6e1-1K1XhP.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/wp-content/plugins/gutenify/core/assets/fontawesome/fonts/fa-solid-900.svg
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:26] [class-ss-page.php:119] Checking Content Identical:27ff48cafd4ef630dda4f3a5007d66e824fcb4eb===. Value: FALSE
+[2024-10-23 01:35:26] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 36 of 60 pages/files
+[2024-10-23 01:35:26] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-23 01:35:26] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-23 01:35:26] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:69] Total pages: 63; Pages remaining: 3
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fdiana-marquez-copa-menu%2Fwp-admin%2F%3Fsimply_static_page%3D37&reauth=1
+[2024-10-23 01:35:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 63
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/diana-marquez-copa-menu/wp-login.php?redirect_to=http%3A%2F%2Flocalhost%2Fdiana-marquez-copa-menu%2Fwp-admin%2F%3Fsimply_static_page%3D37&reauth=1
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/category/sin-categoria/feed/
+[2024-10-23 01:35:26] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 63
+[2024-10-23 01:35:26] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852de78907-7VRkHN.tmp
+[2024-10-23 01:35:26] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/category/sin-categoria/feed/?simply_static_page=62
+[2024-10-23 01:35:26] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/category/sin-categoria/feed/?simply_static_page=62
+[2024-10-23 01:35:29] [class-ss-url-fetcher.php:103] Filesize: 1903 bytes
+[2024-10-23 01:35:29] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-23 01:35:29] [class-ss-url-fetcher.php:233] New filename for static page: /category/sin-categoria/feed/index.xml
+[2024-10-23 01:35:29] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852de78907-7VRkHN.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280/category/sin-categoria/feed/index.xml
+[2024-10-23 01:35:29] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-23 01:35:29] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-23 01:35:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-23 01:35:29] [class-ss-page.php:119] Checking Content Identical:c67154de59aede70e490ad56659915d86ba2a5d7===. Value: FALSE
+[2024-10-23 01:35:29] [class-ss-fetch-urls-task.php:72] URL: http://localhost/diana-marquez-copa-menu/wp-json/wp/v2/categories/1
+[2024-10-23 01:35:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 63
+[2024-10-23 01:35:29] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/diana-marquez-copa-menu/wp-json/wp/v2/categories/1
+[2024-10-23 01:35:29] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-23 01:35:29] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 60 of 63 pages/files
+[2024-10-23 01:35:29] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-23 01:35:31] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-23 01:35:31] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-23 01:35:31] [class-ss-fetch-urls-task.php:69] Total pages: 63; Pages remaining: 0
+[2024-10-23 01:35:31] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 63 of 63 pages/files
+[2024-10-23 01:35:31] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-23 01:35:31] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-23 01:35:31] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-23 01:35:31] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-23 01:35:31] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\FREDDY~1\AppData\Local\Temp/671852e3e367e-2im4TG.tmp
+[2024-10-23 01:35:31] [class-ss-page-handler.php:38] URL Prepared:http://localhost/diana-marquez-copa-menu/1729647332?simply_static_page=0
+[2024-10-23 01:35:31] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/diana-marquez-copa-menu/1729647332?simply_static_page=0
+[2024-10-23 01:35:35] [class-ss-url-fetcher.php:103] Filesize: 46330 bytes
+[2024-10-23 01:35:35] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-23 01:35:35] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-23 01:35:35] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\FREDDY~1\AppData\Local\Temp/671852e3e367e-2im4TG.tmp to C:\xampp\htdocs\diana-marquez-copa-menu/wp-content/uploads\simply-static\temp-files/simply-static-1-1729647280\404/index.html
+[2024-10-23 01:35:35] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-23 01:35:35] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-23 01:35:35] [class-ss-page.php:119] Checking Content Identical:273c08797c0dc2053f5c14e70cd97b309ed7c78c===. Value: FALSE
+[2024-10-23 01:35:35] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-23 01:35:35] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-10-23 01:35:35] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-23 01:35:35] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-23 01:35:35] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 50 of 55 files
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/pagina-ejemplo
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/2024/10/23/hola-mundo
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/js/jquery
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/js/jquery
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/js/lib
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/js/lib/scrollmagic
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/blocks/navigation
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/js/dist/vendor
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/js/dist/vendor
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/js/dist/vendor
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/js/dist
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/js/dist
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/js/dist
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/dist/non-blocks/frontend
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/dist/non-blocks/common-scripts/slider
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/feed
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/comments/feed
+[2024-10-23 01:35:35] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/blocks/navigation
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/css
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/dist/non-blocks/frontend
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/js/dist
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/dm-sans
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/inter
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-admin
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/pagina-ejemplo/feed
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/category/sin-categoria
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/js
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/2024/10/23/hola-mundo/feed
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-includes/css/dist/block-library
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:55. Processed Pages: 50
+[2024-10-23 01:35:36] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 50 of 55 files
+[2024-10-23 01:35:36] [trait-can-process-pages.php:110] Total pages: 55; Pages remaining: 5
+[2024-10-23 01:35:36] [class-ss-archive-creation-job.php:181] We're not done with the transfer_files_locally task yet
+[2024-10-23 01:35:36] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-23 01:35:36] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-23 01:35:36] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 5 of 55 files
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/wp-content/plugins/gutenify/core/assets/fontawesome/fonts
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/diana-marquez-copa-menu/category/sin-categoria/feed
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:55. Processed Pages: 55
+[2024-10-23 01:35:36] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 55 of 55 files
+[2024-10-23 01:35:36] [trait-can-process-pages.php:110] Total pages: 55; Pages remaining: 0
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:243] Transferring 404 Page
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:263] Destination 404 Page found at C:\xampp\htdocs\diana-marquez-copa-menu\404\index.html
+[2024-10-23 01:35:36] [class-ss-transfer-files-locally-task.php:267] Success
+[2024-10-23 01:35:36] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://diananet.github.io/diana-marquez-copa-menu/" target="_blank">https://diananet.github.io/diana-marquez-copa-menu/</a>
+[2024-10-23 01:35:36] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-23 01:35:36] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-23 01:35:36] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-23 01:35:36] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-23 01:35:36] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-23 01:35:36] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-23 01:35:36] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-23 01:35:36] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:56
